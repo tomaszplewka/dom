@@ -31,6 +31,7 @@
 - Database changes only through migrations (Flyway), never by editing old migrations.
 - Configuration and secrets come from environment variables, never committed. Keep `.env.example` up to date.
 - Errors: consistent JSON error responses with the correct HTTP status codes.
+- **Commit messages:** Conventional Commits: `type(scope): short imperative summary` (lowercase, no period, under ~72 chars). Types: `feat`, `fix`, `docs`, `test`, `refactor`, `chore`, `build`. Add a short body only when the "why" isn't obvious. Example: `feat(health): add GET /health endpoint`.
 - **Git authorship:** commits are mine alone. Never add `Co-Authored-By`, "Generated with Claude Code" or any other Claude attribution to commit messages, PR descriptions or code. The repo is public and I want to be the only contributor shown on GitHub.
 
 ## Commands

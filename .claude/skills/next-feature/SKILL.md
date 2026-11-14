@@ -34,4 +34,4 @@ For each step:
 ## 5. Finish the feature
 - When all steps are done and the tests pass, set the item to `done` in `ROADMAP.md`.
 - Suggest next: `/quiz` to check understanding and `/recap` to write the notes.
-- Don't commit. I commit myself.
+- Ask me whether to commit and push. Only after I approve: use a Conventional Commit message (see `CLAUDE.md`), with no Claude attribution.
