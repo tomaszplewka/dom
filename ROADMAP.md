@@ -5,7 +5,7 @@ Dom: a shared shopping list that grows into a household app.
 
 | # | Feature | Backend concepts | Status |
 |---|---|---|---|
-| 1 | Project skeleton + `GET /health` | HTTP, routing, JSON, Gradle, Spring Boot structure | todo |
+| 1 | Project skeleton + `GET /health` | HTTP, routing, JSON, Gradle, Spring Boot structure | done |
 | 2 | Lists and items (create, read, update, delete), stored in memory | REST design, DTOs, validation, status codes, error handling | todo |
 | 3 | Postgres + migrations (Flyway) | SQL, schema, relations, JPA vs JDBC, transactions, Docker Compose | todo |
 | 4 | Tests | Unit vs integration tests, Testcontainers, the testing pyramid | todo |
