@@ -41,3 +41,6 @@ out/
 
 ### Secrets ###
 .env
+
+# Personal learning notes
+learning/
