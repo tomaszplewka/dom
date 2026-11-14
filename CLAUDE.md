@@ -2,9 +2,9 @@
 
 ## Project
 
-- **Name:** <Dom | Split | Poker>
-- **Goal:** a real app I'll use daily, built so I can **learn backend development step by step**.
-- **Stack:** <Kotlin + Spring Boot | Java + Spring Boot | Kotlin + Ktor>, Gradle (Kotlin DSL), Postgres, Docker Compose, Testcontainers. Frontend: a small React PWA in `web/`.
+- **Name:** Dom, a shared shopping list that grows into a household app.
+- **Goal:** a real app I'll use daily (with family or a partner), built so I can **learn backend development step by step**.
+- **Stack:** Kotlin + Spring Boot, Gradle (Kotlin DSL), Postgres, Docker Compose, Testcontainers. Frontend: a small React PWA in `web/`.
 - **Roadmap:** `ROADMAP.md`. **My notes:** `learning/`.
 
 ## About me
@@ -21,7 +21,7 @@
 - **Ask, don't assume:** before adding a dependency, changing the architecture or going beyond the current roadmap item, ask me first.
 - **Show the "why" in the code:** short comments only where a backend idea isn't obvious. No noise.
 - **Stay on the roadmap:** work only on the current roadmap item. Write new ideas into the "Ideas" section of `ROADMAP.md` instead of building them.
-- **Don't commit.** I review the diff and commit myself.
+- **Commit and push only with my approval.** I review the diff first. After I accept a finished feature, ask me whether to commit and push; never do it on your own.
 
 ## Engineering rules
 
@@ -31,6 +31,7 @@
 - Database changes only through migrations (Flyway), never by editing old migrations.
 - Configuration and secrets come from environment variables, never committed. Keep `.env.example` up to date.
 - Errors: consistent JSON error responses with the correct HTTP status codes.
+- **Git authorship:** commits are mine alone. Never add `Co-Authored-By`, "Generated with Claude Code" or any other Claude attribution to commit messages, PR descriptions or code. The repo is public and I want to be the only contributor shown on GitHub.
 
 ## Commands
 
